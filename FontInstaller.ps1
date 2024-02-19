@@ -1,5 +1,5 @@
 param(
-    [string]$sourceFolder = "C:\Users\bakir\Desktop\DOCUMENTS\Fonts",
+    [string]$sourceFolder = "C:\path\to\your\folder",
     [string]$fontRegistryPath = "HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts"
 )
 
