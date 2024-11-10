@@ -2,15 +2,13 @@
 
 Automatically Install Fonts on Windows from Directory. Installs `.otf` & `.ttf` font files recursively from a given directory
 
-### Setup Guide (Windows)
+### Setup Guide
 
 - have `git` installed
 
-- run<br />
-`git clone https://github.com/BakirGracic/windows-font-installer`
+- run `git clone https://github.com/BakirGracic/windows-font-installer`
 
-- run<br />
-`.\FontInstaller.ps1`
+- run `.\FontInstaller.ps1` inside the folder
 
 
 ### Possible Errors
@@ -22,3 +20,7 @@ Automatically Install Fonts on Windows from Directory. Installs `.otf` & `.ttf` 
   - `Get-ExecutionPolicy -List`
   - `Set-ExecutionPolicy Undefined`
 - for explanation and more details about the error see [this](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-7.4)
+
+### License 
+
+This project is licensed under the MIT License. See the LICENSE file for details.
